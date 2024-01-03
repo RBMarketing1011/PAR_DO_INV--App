@@ -1,0 +1,3556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Inventory Ordering</title>
+  </head>
+  <body>
+    <div class="grid text-center">
+      <div class="g-col-12">
+        <h1>Inventory Ordering</h1>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container text-center">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Sourdough Loafs</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="6" selected>6</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Croissant Rolls</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Biscuits</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="6" selected>6</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Bagels</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Plant Based Sausage</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Turkey Sausage</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Pastrami</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Ham</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="4" selected>4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Turkey</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="4" selected>4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Turkey Bacon</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Regular Bacon</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="4" selected>4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Chicken Thighs</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Potatoes</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="5" selected>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Berry Mix</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Limes</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Lemons</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Portabella Mushrooms</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Parsley</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Tarragon</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Cilantro</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Spring Mix</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Spinach</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Romaine</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Garlic</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Pepperchini</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Carrots</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Bags)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Whipped Cream Cheese</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Dairy Free Whipped Cream</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Dairy Free Cream Cheese</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Swiss</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Extra Melt American</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>White American</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Parmesan</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Eggs</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Egg Whites</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Milk</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Heavy Cream</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Chips</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Oat Milk</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="6" selected>6</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Almond Milk</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Tortilla</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Sugar In The Raw</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Stevia In The Raw</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>AP Flower</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Granola</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Candied Pecans</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Grits</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Red Pepper Strips</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Raspberry Vinaigrette</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Balsamic Vinaigrette</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Ranch</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Honey Mustard</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Feta Cheese</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Whole Grain Mustard</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Balsamic Glaze</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Tahini Paste</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Balsamic Vinegar</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>White Vinegar</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Vegetable Oil</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Olive Oil</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Hot Sauce</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Ketchup</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Mayo</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Croutons</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Nutella</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Avocadoes</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Cherry Tomatoes</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Regular Tomatoes</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Apples</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Onions</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Grape Jam</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Strawberry Jam</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Blackberry Jam</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>White Chocolate Syrup</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Sea Salt Caramel Syrup</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Honey</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Monin Chocolate</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Agave</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Vanilla</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Each)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Sprite</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Coke</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>S. Pellegrino</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Orange Juice</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Hibiscus Tea</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="2" selected>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Lemonade</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Apple Juice</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><h2>Cranberry Juice</h2></div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="col">
+            <label for="col1">INV</label>
+            <select id="col1" class="form-select">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col2">PAR</label>
+            <select id="col2" class="form-select">
+              <option value="1" selected>1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <label for="col3">Order (Cases)</label>
+            <input
+              id="col3"
+              class="form-control"
+              type="text"
+              value="DO"
+              aria-label="readonly input example"
+              readonly
+            />
+          </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div id="InputBtn" class="col-12 btn btn-lg btn-danger">Submit</div>
+      </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
